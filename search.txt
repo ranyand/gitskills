@@ -1,0 +1,22 @@
+
+图悦国内（中文可用）网址：http://www.picdata.cn/?winzoom=1
+wordle国外（只可用英文）网址：http://www.wordle.net/
+tagul国外（只可用英文）网址：https://tagul.com/
+ToCloud国外（中文英文可用）网址：http://tocloud.com/
+一个开源项目国外（中英可用）网址：https://www.jasondavies.com/wordcloud/
+Git的官方网站https://git-scm.com/
+国外网友制作的Git Cheat Sheet    https://pan.baidu.com/s/1kU5OCOB#path=%252Fpub%252Fgit
+github官方网站https://github.com/
+Silk  http://weavesilk.com/一个绘制三维图形的网站，可以随意调节绘笔颜色，对称画法，不需要什么绘画基础就能画得很炫！
+Strobe Illusion  https://strobe.cool/绝大部分人肯定没吸过毒，如果想有吸毒的体验，这个网站可以满足你。观看这个网站产生的幻觉，据说最为接近吸毒的感觉...
+Geektyper  http://www.geektyper.com/想成为一名黑客吗？想在网络世界展现自己的大神技能吗？Geektyper这个网站，绝对能满足你的要求。当你打开这个网站噼里啪啦敲击键盘的时候，周围的小学生都会被镇住！
+Cybermap  https://cybermap.kaspersky.com/这是卡巴斯基实验室(Kaspersky Lab)一个“实时展示全球恶意软件攻击”的项目，你可以直观看到全球黑客的攻击活动情况，查看各个国家被攻击的数据，配合上一个使用，效果更佳！
+互联网巨头实时收益http://pennystocks.la/battle-of-internet-giants/你可以在这里感受一下大咖们钱赚得有多快，网站展示了互联网巨头实时收益图，显示的是你进入网站后时间内，这些巨头们都赚了多少钱。
+Clone Zone  http://clonezone.link/这是个可以随心所欲替换网页内容的网站！它可以在线修改任意网页的内容，有了它，你就可以登上各大网站的头条了，内容你说了算！
+EssayTyper  http://www.essaytyper.com/它可以在线让你伪装成一个打字高手，你可以设定一个文章主题，之后所打出来的字都是围绕的主题来写的，这样一来，会使你的装逼更有说服力！
+Hetemeel  http://www.hetemeel.com/einsteinform.php又是一个神器的网站，输入你想发布的内容，爱因斯坦就会在黑板上写下来。爱因斯坦的背书，绝对逼格爆表！
+在百度搜索 完全过滤掉百度竞价的广告可以用这个URL：https://www.baidu.com/s?wd=qq&tn=baidulocal 其中QQ是你搜索的关键词，后面那个baidulocal就是 百度的一个专有通道。
+
+
+
+
