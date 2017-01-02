@@ -1,4 +1,4 @@
-
+http://bestcbooks.com/B013KKCLE4/  It is a computer science book search
 图悦国内（中文可用）网址：http://www.picdata.cn/?winzoom=1
 wordle国外（只可用英文）网址：http://www.wordle.net/
 tagul国外（只可用英文）网址：https://tagul.com/
@@ -15,7 +15,7 @@ Cybermap  https://cybermap.kaspersky.com/这是卡巴斯基实验室(Kaspersky L
 Clone Zone  http://clonezone.link/这是个可以随心所欲替换网页内容的网站！它可以在线修改任意网页的内容，有了它，你就可以登上各大网站的头条了，内容你说了算！
 EssayTyper  http://www.essaytyper.com/它可以在线让你伪装成一个打字高手，你可以设定一个文章主题，之后所打出来的字都是围绕的主题来写的，这样一来，会使你的装逼更有说服力！
 Hetemeel  http://www.hetemeel.com/einsteinform.php又是一个神器的网站，输入你想发布的内容，爱因斯坦就会在黑板上写下来。爱因斯坦的背书，绝对逼格爆表！
-在百度搜索 完全过滤掉百度竞价的广告可以用这个URL：https://www.baidu.com/s?wd=qq&tn=baidulocal 其中QQ是你搜索的关键词，后面那个baidulocal就是 百度的一个专有通道。
+python官方手册 https://www.python.org/doc/
 
 
 
