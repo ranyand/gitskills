@@ -1,0 +1,41 @@
+<a href="<linkname>"click here</a> #在 href 属性中指定链接的地址。
+<img src="/root/gittt/gitskills/imgsrc.png" width="717" height="157"/> #图像的名称和尺寸是以属性的形式提供的
+<h1> 定义标题的开始。<h1 align="center"> 拥有关于对齐方式的附加信息。TIY : 居中排列标题
+<!-- This is a comment --> # 开始括号之后（左边的括号）需要紧跟一个叹号，结束括号之前（右边的括号）不需要。
+<hr />水平线
+在开始标签中添加斜杠，比如 <br />，是关闭空元素的正确方法，HTML、XHTML 和 XML 都接受这种方式。
+标签 	描述粗体（bold）、斜体（italic）、等宽（monospaced）、下划线（underlined）、删除线（strikethrough）、放大（larger）、缩小（smaller）、上标（superscripted）和下标（subscripted）文本。这些标签是：
+<b> 	定义粗体文本。
+<big> 	定义大号字。<code> 	定义计算机代码。
+<kbd> 	定义键盘码。
+<samp> 	定义计算机代码样本。
+<tt> 	定义打字机代码。
+<var> 	定义变量。
+<abbr> 	定义缩写或首字母缩略语。
+<address> 	定义文档作者或拥有者的联系信息。
+<bdo> 	定义文本方向。
+<blockquote> 	定义从其他来源引用的节。
+<dfn> 	定义项目或缩略词的定义。
+<q> 	定义短的行内引用。
+<cite> 	定义著作的标题。
+<pre> 	定义预格式文本。
+<em> 	定义着重文字。<abbr> 	定义缩写。
+<code> 	定义计算机代码文本
+<kbd> 	定义键盘文本
+<samp> 	定义计算机代码示例
+<var> 	定义变量
+<pre> 	定义预格式化文本
+<acronym> 	定义首字母缩写。
+<address> 	定义地址。
+<bdo> 	定义文字方向。
+<blockquote> 	定义长的引用。
+<q> 	定义短的引用语。
+<cite> 	定义引用、引证。
+<dfn> 	定义一个定义项目。
+<i> 	定义斜体字。
+<small> 	定义小号字。
+<strong> 	定义加重语气。
+<sub> 	定义下标字。
+<sup> 	定义上标字。
+<ins> 	定义插入字。
+<del> 	定义删除字。
