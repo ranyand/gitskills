@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<style type="text/css">
+body{font-size:70%;}
+</style>
+
+</head>
+
+<body>
+
+<div style="text-align:center;">
+  <button onclick="playPause()">play/pause</button> 
+  <button onclick="makeBig()">big</button>
+  <button onclick="makeNormal()">middle</button>
+  <button onclick="makeSmall()">small</button>
+  <br /> 
+  <video id="video1" width="420" style="margin-top:15px;">
+    <source src="/root/gittt/gitskills/img/1.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script type="text/javascript">
+var myVideo=document.getElementById("video1");
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=560; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=320; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=420; 
+} 
+</script> 
+<canvas id="myCanvas" width="200" height="100"></canvas>
+<script type="text/javascript">
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="#FF0000";
+cxt.fillRect(0,0,150,75);
+</script>
+</body> 
+</html>
+
+

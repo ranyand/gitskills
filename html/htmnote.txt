@@ -1,0 +1,763 @@
+<a href="<linkname>"click here</a> #在 href 属性中指定链接的地址。
+<img src="/root/gittt/gitskills/imgsrc.png" width="717" height="157"/> #图像的名称和尺寸是以属性的形式提供的
+<h1> 定义标题的开始。<h1 align="center"> 拥有关于对齐方式的附加信息。TIY : 居中排列标题
+<!-- This is a comment --> # 开始括号之后（左边的括号）需要紧跟一个叹号，结束括号之前（右边的括号）不需要。
+<hr />水平线
+在开始标签中添加斜杠，比如 <br />，是关闭空元素的正确方法，HTML、XHTML 和 XML 都接受这种方式。
+标签 	描述粗体（bold）、斜体（italic）、等宽（monospaced）、下划线（underlined）、删除线（strikethrough）、放大（larger）、缩小（smaller）、上标（superscripted）和下标（subscripted）文本。这些标签是：
+<b> 	定义粗体文本。
+<big> 	定义大号字。<code> 	定义计算机代码。
+<kbd> 	定义键盘码。
+<samp> 	定义计算机代码样本。
+<tt> 	定义打字机代码。
+<var> 	定义变量。
+<abbr> 	定义缩写或首字母缩略语。
+<address> 	定义文档作者或拥有者的联系信息。
+<bdo> 	定义文本方向。
+<blockquote> 	定义从其他来源引用的节。
+<dfn> 	定义项目或缩略词的定义。
+<q> 	定义短的行内引用。
+<cite> 	定义著作的标题。
+<pre> 	定义预格式文本。
+<em> 	定义着重文字。<abbr> 	定义缩写。
+<code> 	定义计算机代码文本
+<kbd> 	定义键盘文本
+<samp> 	定义计算机代码示例
+<var> 	定义变量
+<pre> 	定义预格式化文本
+<acronym> 	定义首字母缩写。
+<address> 	定义地址。
+<bdo> 	定义文字方向。
+<blockquote> 	定义长的引用。
+<q> 	定义短的引用语。
+<cite> 	定义引用、引证。
+<dfn> 	定义一个定义项目。
+<i> 	定义斜体字。
+<small> 	定义小号字。
+<strong> 	定义加重语气。
+ target="_blank"在新窗口打开文档
+<sub> 	定义下标字。
+<sup> 	定义上标字。
+<ins> 	定义插入字。
+<del> 	定义删除字。
+<a href="#tips">to the top</a>
+<a name="tips">here is top</a>
+<p>
+这是另一个 mailto 链接：
+<a href="mailto:someone@microsoft.com?cc=someoneelse@microsoft.com&bcc=andsomeoneelse2@microsoft.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送邮件！</a>
+</p>
+<p>
+这是邮件链接：
+<a href="mailto:someone@microsoft.com?subject=Hello%20again">发送邮件</a>
+</p>
+
+替换文本属性（Alt）
+
+alt 属性用来为图像定义一串预备的可替换的文本。替换文本属性的值是用户定义的。
+
+<img src="boat.gif" alt="Big Boat">
+
+在浏览器无法载入图像时，替换文本属性告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。为页面上的图像都加上替换文本属性是个好习惯，这样有助于更好的显示信息，并且对于那些使用纯文本浏览器的人来说是非常有用的。
+<body background="/i/eg_background.jpg">图像背景
+<p>图像 <img src="/i/eg_cute.gif" align="bottom"> 在文本中</p>
+bottom 对齐方式是默认的对齐方式。ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+<html>
+<body>
+
+<p>请点击图像上的星球，把它们放大。</p>
+
+<img
+src="/i/eg_planets.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />元素添加了
+
+<map name="planetmap" id="planetmap">
+<area
+shape="circle"
+coords="180,139,14"
+href ="/example/html/venus.html"
+target ="_blank"
+alt="Venus" />
+
+<area
+shape="circle"
+coords="129,161,10"
+href ="/example/html/mercur.html"
+target ="_blank"
+alt="Mercury" />
+
+<area
+shape="rect"
+coords="0,0,110,260"
+href ="/example/html/sun.html"
+target ="_blank"
+alt="Sun" />
+
+</map>
+
+<p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>
+<img src=="/"/i/eg_planets.jpg" ismap />
+<img> 	定义图像。
+<map> 	定义图像地图。
+<area> 	定义图像地图中的可点击区域。
+<p>每个表格由 table 标签开始。</p>
+<p>每个表格行由 tr 标签开始。</p>
+<p>每个表格数据由 td 标签开始。</p>
+表格的表头使用 <th> 标签进行定义。
+&nbsp;空格占位符
+colspan="2"横跨两列的单元格
+rowspan="2"横跨两行的单元格
+cellpadding="10"单元格边距(Cell padding)
+cellspacing="10"单元格间距(Cell spacing)
+background="/i/eg_bg_07.gif"
+bgcolor="red"
+<th align="left">消费项目....</th>
+  <th align="right">一月</th>
+  <th align="right">二月</th>本例演示如何使用 "align" 属性排列单元格内容,以便创建一个美观的表格。
+fram="%s" %box/above/below/hsides/vsides
+<table> 	定义表格
+<caption> 	定义表格标题。
+<th> 	定义表格的表头。
+<tr> 	定义表格的行。
+<td> 	定义表格单元。
+<thead> 	定义表格的页眉。
+<tbody> 	定义表格的主体。
+<tfoot> 	定义表格的页脚。
+<col> 	定义用于表格列的属性。
+<colgroup> 	定义表格列的组。
+无序列表
+<ul>
+<li>Coffee</li>
+<li>Milk</li>
+</ul>  #########<ul type="%s"> % circle/suqare/disk/....
+有序列表
+<ol>
+<li>Coffee</li>
+<li>Milk</li>
+</ol>  #########<ol type="%s"> % 1/A/a/I/i(罗马字母)
+自定义列表以 <dl> 标签开始。每个自定义列表项以 <dt> 开始。每个自定义列表项的定义以 <dd> 开始。
+<dl>
+<dt>Coffee</dt>
+<dd>Black hot drink</dd>
+<dt>Milk</dt>
+<dd>White cold drink</dd>
+</dl>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css" />外部样式表
+</head>
+
+
+transparent 	英 [trænsˈpærənt]
+	美 [trænsˈpærənt]
+adj. 	透明的; 清澈的; 易识破的; 显而易见的;
+[例句]I looked at his thin face with its almost transparent skin.
+我看着他清瘦的脸，脸上肌肤几近透明。
+padding设置内边距
+
+如果只出现一个关键字，则认为另一个关键字是 center。
+单一关键字 	等价的关键字
+center 	center center
+top 	top center 或 center top
+bottom 	bottom center 或 center bottom
+right 	right center 或 center right
+left 	left center 或 center left
+因此，如果你想把一个图像放在水平方向 2/3、垂直方向 1/3 处，可以这样声明：
+
+body
+  { 
+    background-image:url('/i/eg_bg_03.gif');
+    background-repeat:no-repeat;
+    background-position:66% 33%;
+  }
+
+背景关联
+
+如果文档比较长，那么当文档向下滚动时，背景图像也会随之滚动。当文档滚动到超过图像的位置时，图像就会消失。
+
+您可以通过 background-attachment 属性防止这种滚动。通过这个属性，可以声明图像相对于可视区是固定的（fixed），因此不会受到滚动的影响：
+
+body 
+  {
+  background-image:url(/i/eg_bg_02.gif);
+  background-repeat:no-repeat;
+  background-attachment:fixed
+  }
+
+如需查看上例的效果，可以亲自试一试。
+
+background-attachment 属性的默认值是 scroll，也就是说，在默认的情况下，背景会随文档滚动。
+<style type="text/css">
+body
+{ 
+background: #ff0000 url(/i/eg_bg_03.gif) no-repeat fixed center; 
+}所有背景属性在一个声明之中
+</style>
+background 	简写属性，作用是将背景属性设置在一个声明中。
+background-attachment 	背景图像是否固定或者随着页面的其余部分滚动。
+background-color 	设置元素的背景颜色。
+background-image 	把图像设置为背景。
+background-position 	设置背景图像的起始位置。
+background-repeat 	设置背景图像是否及如何重复。
+注释：当 white-space 属性设置为 normal 时，会合并所有的空白符，并忽略换行符。
+值 	空白符 	换行符 	自动换行
+pre-line 	合并 	保留 	允许
+normal 	合并 	忽略 	允许
+nowrap 	合并 	忽略 	不允许
+pre 	保留 	保留 	不允许
+pre-wrap 	保留 	保留 	允许
+direction 属性有两个值：ltr 和 rtl。大多数情况下，默认值是 ltr，显示从左到右的文本。如果显示从右到左的文本，应使用值 rtl。
+CSS 文本属性
+属性 	描述
+color 	设置文本颜色
+direction 	设置文本方向。
+line-height 	设置行高。
+letter-spacing 	设置字符间距。
+text-align 	对齐元素中的文本。
+text-decoration 	向文本添加修饰。
+text-indent 	缩进元素中文本的首行。
+text-shadow 	设置文本阴影。CSS2 包含该属性，但是 CSS2.1 没有保留该属性。
+text-transform 	控制元素中的字母。
+unicode-bidi 	设置文本方向。
+white-space 	设置元素中空白的处理方式。
+word-spacing 	设置字间距。
+CSS 字体系列
+
+在 CSS 中，有两种不同类型的字体系列名称：
+
+    通用字体系列 - 拥有相似外观的字体系统组合（比如 "Serif" 或 "Monospace"）
+    特定字体系列 - 具体的字体系列（比如 "Times" 或 "Courier"）
+
+除了各种特定的字体系列外，CSS 定义了 5 种通用字体系列：
+
+    Serif 字体
+    Sans-serif 字体
+    Monospace 字体
+    Cursive 字体
+    Fantasy 字体
+如果你希望文档使用一种 sans-serif 字体，但是你并不关心是哪一种字体，以下就是一个合适的声明：
+h1 {font-family: Georgia, serif;}
+注意：如果您没有规定字体大小，普通文本（比如段落）的默认大小是 16 像素 (16px=1em)。
+可以使用下面这个公式将像素转换为 em：pixels/16=em
+
+（注：16 等于父元素的默认字体大小，假设父元素的 font-size 为 20px，那么公式需改为：pixels/20=em）
+建议在所有 font-family 规则中都提供一个通用字体系列。
+如果您对字体非常熟悉，也可以为给定的元素指定一系列类似的字体。要做到这一点，需要把这些字体按照优先顺序排列，然后用逗号进行连接：
+
+p {font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;}
+字体风格
+
+font-style 属性最常用于规定斜体文本。
+
+该属性有三个值：
+
+    normal - 文本正常显示
+    italic - 文本斜体显示
+    oblique - 文本倾斜显示
+斜体（italic）是一种简单的字体风格，对每个字母的结构有一些小改动，来反映变化的外观。与此不同，倾斜（oblique）文本则是正常竖直文本的一个倾斜版本。
+
+
+CSS 字体属性a:link {color:#FF0000;}		/* 未被访问的链接 */
+a:visited {color:#00FF00;}	/* 已被访问的链接 */
+a:hover {color:#FF00FF;}	/* 鼠标指针移动到链接上 */
+a:active {color:#0000FF;}	/* 正在被点击的链接 */
+属性 	描述
+font 	简写属性。作用是把所有针对字体的属性设置在一个声明中。
+font-family 	设置字体系列。
+font-size 	设置字体的尺寸。
+font-size-adjust 	当首选字体不可用时，对替换字体进行智能缩放。（CSS2.1 已删除该属性。）
+font-stretch 	对字体进行水平拉伸。（CSS2.1 已删除该属性。）
+font-style 	设置字体风格。
+font-variant 	以小型大写字体或者正常字体显示文本。
+font-weight 	设置字体的粗细。
+链接的四种状态：
+
+    a:link - 普通的、未被访问的链接
+    a:visited - 用户已访问的链接
+    a:hover - 鼠标指针位于链接的上方
+    a:active - 链接被点击的时刻
+a:link {color:#FF0000;}		/* 未被访问的链接 */
+a:visited {color:#00FF00;}	/* 已被访问的链接 */
+a:hover {color:#FF00FF;}	/* 鼠标指针移动到链接上 */
+a:active {color:#0000FF;}	/* 正在被点击的链接 */
+注释：为了使定义生效，a:hover 必须位于 a:link 和 a:visited 之后！！
+
+注释：为了使定义生效，a:active 必须位于 a:hover 之后！！
+文本修饰
+
+text-decoration 属性大多用于去掉链接中的下划线：
+实例
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+<b>注释：</b> bold?
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}####to bigger
+
+CSS 列表属性(list)
+属性 	描述
+list-style 	简写属性。用于把所有用于列表的属性设置于一个声明中。
+list-style-image 	将图象设置为列表项标志。
+list-style-position 	设置列表中列表项标志的位置。
+list-style-type 	设置列表项标志的类型。
+marker-offset 	 
+<html>
+<head>
+<style type="text/css">
+ul.none {list-style-type: none}
+ul.disc {list-style-type: disc}
+ul.circle {list-style-type: circle}
+ul.square {list-style-type: square}
+ul.decimal {list-style-type: decimal}
+ul.decimal-leading-zero {list-style-type: decimal-leading-zero}
+ul.lower-roman {list-style-type: lower-roman}
+ul.upper-roman {list-style-type: upper-roman}
+ul.lower-alpha {list-style-type: lower-alpha}
+ul.upper-alpha {list-style-type: upper-alpha}
+ul.lower-greek {list-style-type: lower-greek}
+ul.lower-latin {list-style-type: lower-latin}
+ul.upper-latin {list-style-type: upper-latin}
+ul.hebrew {list-style-type: hebrew}
+ul.armenian {list-style-type: armenian}
+ul.georgian {list-style-type: georgian}
+ul.cjk-ideographic {list-style-type: cjk-ideographic}
+ul.hiragana {list-style-type: hiragana}
+ul.katakana {list-style-type: katakana}
+ul.hiragana-iroha {list-style-type: hiragana-iroha}
+ul.katakana-iroha {list-style-type: katakana-iroha}
+</style>
+CSS Table 属性
+属性 	描述
+border-collapse 	设置是否把表格边框合并为单一的边框。
+border-spacing 	设置分隔单元格边框的距离。
+caption-side 	设置表格标题的位置。
+empty-cells 	设置是否显示表格中的空单元格。
+table-layout 	设置显示单元、行和列的算法。
+CSS 边框属性
+
+"CSS" 列中的数字指示哪个 CSS 版本定义了该属性。
+属性 	描述 	CSS
+outline 	在一个声明中设置所有的轮廓属性。 	2
+outline-color 	设置轮廓的颜色。 	2
+outline-style 	设置轮廓的样式。 	2
+outline-width 	设置轮廓的宽度。 	2
+
+    element : 元素。
+    padding : 内边距，也有资料将其翻译为填充。
+    border : 边框。
+    margin : 外边距，也有资料将其翻译为空白或空白边。
+CSS 定位属性
+
+CSS 定位属性允许你对元素进行定位。
+属性 	描述
+position 	把元素放置到一个静态的、相对的、绝对的、或固定的位置中。
+top 	定义了一个定位元素的上外边距边界与其包含块上边界之间的偏移。
+right 	定义了定位元素右外边距边界与其包含块右边界之间的偏移。
+bottom 	定义了定位元素下外边距边界与其包含块下边界之间的偏移。
+left 	定义了定位元素左外边距边界与其包含块左边界之间的偏移。
+overflow 	设置当元素的内容溢出其区域时发生的事情。
+clip 	设置元素的形状。元素被剪入这个形状之中，然后显示出来。
+vertical-align 	设置元素的垂直对齐方式。
+z-index 	设置元素的堆叠顺序。
+在 CSS3 中，border-radius 属性用于创建圆角：
+CSS3 边框阴影
+
+在 CSS3 中，box-shadow 用于向方框添加阴影：
+
+属性 	描述 	CSS
+background-clip 	规定背景的绘制区域。 	3
+background-origin 	规定背景图片的定位区域。 	3
+background-size 	规定背景图片的尺寸。 	3
+
+    CSS3 边框
+    CSS3 文本效果
+
+Search:
+
+CSS 参考手册
+属性 	描述 	CSS
+hanging-punctuation 	规定标点字符是否位于线框之外。 	3
+punctuation-trim 	规定是否对标点字符进行修剪。 	3
+text-align-last 	设置如何对齐最后一行或紧挨着强制换行符之前的行。 	3
+text-emphasis 	向元素的文本应用重点标记以及重点标记的前景色。 	3
+text-justify 	规定当 text-align 设置为 "justify" 时所使用的对齐方法。 	3
+text-outline 	规定文本的轮廓。 	3
+text-overflow 	规定当文本溢出包含元素时发生的事情。 	3
+text-shadow 	向文本添加阴影。 	3
+text-wrap 	规定文本的换行规则。 	3
+word-break 	规定非中日韩文本的换行规则。 	3
+word-wrap 	允许对长的不可分割的单词进行分割并换行到下一行。
+@font-face
+{
+font-family: myFirstFont;
+src: url('/example/css3/Sansation_Light.ttf')
+    ,url('/example/css3/Sansation_Light.eot'); /* IE9+ */
+}
+
+CSS3 字体描述符
+
+下面的表格列出了能够在 @font-face 规则中定义的所有字体描述符：
+描述符 	值 	描述
+font-family 	name 	必需。规定字体的名称。
+src 	URL 	必需。定义字体文件的 URL。
+font-stretch 	
+
+    normal
+    condensed
+    ultra-condensed
+    extra-condensed
+    semi-condensed
+    expanded
+    semi-expanded
+    extra-expanded
+    ultra-expanded
+
+	可选。定义如何拉伸字体。默认是 "normal"。
+font-style 	
+
+    ormal
+    italic
+    oblique
+
+	可选。定义字体的样式。默认是 "normal"。
+font-weight 	
+
+    normal
+    bold
+    100
+    200
+    300
+    400
+    500
+    600
+    700
+    800
+    900
+
+	可选。定义字体的粗细。默认是 "normal"。
+unicode-range 	unicode-range 	可选。定义字体支持的 UNICODE 字符范围。默认是 "U+0-10FFFF"。
+
+新的转换属性
+
+下面的表格列出了所有的转换属性：
+属性 	描述 	CSS
+transform 	向元素应用 2D 或 3D 转换。 	3
+transform-origin 	允许你改变被转换元素的位置。 	3
+2D Transform 方法
+函数 	描述
+matrix(n,n,n,n,n,n) 	定义 2D 转换，使用六个值的矩阵。
+translate(x,y) 	定义 2D 转换，沿着 X 和 Y 轴移动元素。
+translateX(n) 	定义 2D 转换，沿着 X 轴移动元素。
+translateY(n) 	定义 2D 转换，沿着 Y 轴移动元素。
+scale(x,y) 	定义 2D 缩放转换，改变元素的宽度和高度。
+scaleX(n) 	定义 2D 缩放转换，改变元素的宽度。
+scaleY(n) 	定义 2D 缩放转换，改变元素的高度。
+rotate(angle) 	定义 2D 旋转，在参数中规定角度。
+skew(x-angle,y-angle) 	定义 2D 倾斜转换，沿着 X 和 Y 轴。
+skewX(angle) 	定义 2D 倾斜转换，沿着 X 轴。
+skewY(angle) 	定义 2D 倾斜转换，沿着 Y 轴。
+
+转换属性
+
+下面的表格列出了所有的转换属性：
+属性 	描述 	CSS
+transform 	向元素应用 2D 或 3D 转换。 	3
+transform-origin 	允许你改变被转换元素的位置。 	3
+transform-style 	规定被嵌套元素如何在 3D 空间中显示。 	3
+perspective 	规定 3D 元素的透视效果。 	3
+perspective-origin 	规定 3D 元素的底部位置。 	3
+backface-visibility 	定义元素在不面对屏幕时是否可见。 	3
+2D Transform 方法
+函数 	描述
+matrix3d(n,n,n,n,n,n,
+n,n,n,n,n,n,n,n,n,n) 	定义 3D 转换，使用 16 个值的 4x4 矩阵。
+translate3d(x,y,z) 	定义 3D 转化。
+translateX(x) 	定义 3D 转化，仅使用用于 X 轴的值。
+translateY(y) 	定义 3D 转化，仅使用用于 Y 轴的值。
+translateZ(z) 	定义 3D 转化，仅使用用于 Z 轴的值。
+scale3d(x,y,z) 	定义 3D 缩放转换。
+scaleX(x) 	定义 3D 缩放转换，通过给定一个 X 轴的值。
+scaleY(y) 	定义 3D 缩放转换，通过给定一个 Y 轴的值。
+scaleZ(z) 	定义 3D 缩放转换，通过给定一个 Z 轴的值。
+rotate3d(x,y,z,angle) 	定义 3D 旋转。
+rotateX(angle) 	定义沿 X 轴的 3D 旋转。
+rotateY(angle) 	定义沿 Y 轴的 3D 旋转。
+rotateZ(angle) 	定义沿 Z 轴的 3D 旋转。
+perspective(n) 	定义 3D 转换元素的透视视图。
+过渡属性
+
+下面的表格列出了所有的转换属性：
+属性 	描述 	CSS
+transition 	简写属性，用于在一个属性中设置四个过渡属性。 	3
+transition-property 	规定应用过渡的 CSS 属性的名称。 	3
+transition-duration 	定义过渡效果花费的时间。默认是 0。 	3
+transition-timing-function 	规定过渡效果的时间曲线。默认是 "ease"。 	3
+transition-delay 	规定过渡效果何时开始。默认是 0。 	3
+实例
+
+在一个例子中使用所有过渡属性：
+
+div
+{
+transition-property: width;
+transition-duration: 1s;
+transition-timing-function: linear;
+transition-delay: 2s;
+/* Firefox 4 */
+-moz-transition-property:width;
+-moz-transition-duration:1s;
+-moz-transition-timing-function:linear;
+-moz-transition-delay:2s;
+/* Safari 和 Chrome */
+-webkit-transition-property:width;
+-webkit-transition-duration:1s;
+-webkit-transition-timing-function:linear;
+-webkit-transition-delay:2s;
+/* Opera */
+-o-transition-property:width;
+-o-transition-duration:1s;
+-o-transition-timing-function:linear;
+-o-transition-delay:2s;
+}
+实例
+
+与上面的例子相同的过渡效果，但是使用了简写的 transition 属性：
+
+div
+{
+transition: width 1s linear 2s;
+/* Firefox 4 */
+-moz-transition:width 1s linear 2s;
+/* Safari and Chrome */
+-webkit-transition:width 1s linear 2s;
+/* Opera */
+-o-transition:width 1s linear 2s;
+}
+
+CSS3 @keyframes 规则
+
+如需在 CSS3 中创建动画，您需要学习 @keyframes 规则。
+
+@keyframes 规则用于创建动画。在 @keyframes 中规定某项 CSS 样式，就能创建由当前样式逐渐改为新样式的动画效果。
+
+
+
+实例
+
+@keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background: red;}
+to {background: yellow;}
+}
+注释：您必须定义动画的名称和时长。如果忽略时长，则动画不会允许，因为默认值是 0。
+
+CSS3 动画属性
+
+下面的表格列出了 @keyframes 规则和所有动画属性：
+属性 	描述 	CSS
+@keyframes 	规定动画。 	3
+animation 	所有动画属性的简写属性，除了 animation-play-state 属性。 	3
+animation-name 	规定 @keyframes 动画的名称。 	3
+animation-duration 	规定动画完成一个周期所花费的秒或毫秒。默认是 0。 	3
+animation-timing-function 	规定动画的速度曲线。默认是 "ease"。 	3
+animation-delay 	规定动画何时开始。默认是 0。 	3
+animation-iteration-count 	规定动画被播放的次数。默认是 1。 	3
+animation-direction 	规定动画是否在下一周期逆向地播放。默认是 "normal"。 	3
+animation-play-state 	规定动画是否正在运行或暂停。默认是 "running"。 	3
+animation-fill-mode 	规定对象动画时间之外的状态。 	3
+
+下面的两个例子设置了所有动画属性：
+实例
+
+运行名为 myfirst 的动画，其中设置了所有动画属性：
+
+div
+{
+animation-name: myfirst;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state: running;
+/* Firefox: */
+-moz-animation-name: myfirst;
+-moz-animation-duration: 5s;
+-moz-animation-timing-function: linear;
+-moz-animation-delay: 2s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-direction: alternate;
+-moz-animation-play-state: running;
+/* Safari 和 Chrome: */
+-webkit-animation-name: myfirst;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-delay: 2s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-play-state: running;
+/* Opera: */
+-o-animation-name: myfirst;
+-o-animation-duration: 5s;
+-o-animation-timing-function: linear;
+-o-animation-delay: 2s;
+-o-animation-iteration-count: infinite;
+-o-animation-direction: alternate;
+-o-animation-play-state: running;
+}
+
+亲自试一试
+实例
+
+与上面的动画相同，但是使用了简写的动画 animation 属性：
+
+div
+{
+animation: myfirst 5s linear 2s infinite alternate;
+/* Firefox: */
+-moz-animation: myfirst 5s linear 2s infinite alternate;
+/* Safari 和 Chrome: */
+-webkit-animation: myfirst 5s linear 2s infinite alternate;
+/* Opera: */
+-o-animation: myfirst 5s linear 2s infinite alternate;
+}
+
+把 div 元素中的文本分隔为三列：
+.newspaper
+{
+-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+}
+
+新的多列属性
+
+下面的表格列出了所有的转换属性：
+属性 	描述 	CSS
+column-count 	规定元素应该被分隔的列数。 	3
+column-fill 	规定如何填充列。 	3
+column-gap 	规定列之间的间隔。 	3
+column-rule 	设置所有 column-rule-* 属性的简写属性。 This	3
+column-rule-color 	规定列之间规则的颜色。 	3
+column-rule-style 	规定列之间规则的样式。 	3
+column-rule-width 	规定列之间规则的宽度。 	3
+column-span 	规定元素应该横跨的列数。 	3
+column-width 	规定列的宽度。 	3
+columns 	规定设置 column-width 和 column-count 的简写属性。 	3
+
+新的用户界面属性
+
+下面的表格列出了所有的转换属性：
+属性 	描述 	CSS
+appearance 	允许您将元素设置为标准用户界面元素的外观 	3
+box-sizing 	允许您以确切的方式定义适应某个区域的具体内容。 	3
+icon 	为创作者提供使用图标化等价物来设置元素样式的能力。 	3
+nav-down 	规定在使用 arrow-down 导航键时向何处导航。 	3
+nav-index 	设置元素的 tab 键控制次序。 	3
+nav-left 	规定在使用 arrow-left 导航键时向何处导航。 	3
+nav-right 	规定在使用 arrow-right 导航键时向何处导航。 	3
+nav-up 	规定在使用 arrow-up 导航键时向何处导航。 	3
+outline-offset 	对轮廓进行偏移，并在超出边框边缘的位置绘制轮廓。 	3
+resize 	规定是否可由用户对元素的尺寸进行调整。 	3
+在 TCP/IP 内部
+
+在 TCP/IP 中包含一系列用于处理数据通信的协议：
+
+    TCP (传输控制协议) - 应用程序之间通信
+    UDP (用户数据包协议) - 应用程序之间的简单通信
+    IP (网际协议) - 计算机之间的通信
+    ICMP (因特网消息控制协议) - 针对错误和状态
+    DHCP (动态主机配置协议) - 针对动态寻址
+
+视频格式
+
+当前，video 元素支持三种视频格式：
+格式 	IE 	Firefox 	Opera 	Chrome 	Safari
+Ogg 	No 	3.5+     	10.5+ 	5.0+ 	No
+MPEG 4 	9.0+ 	No      	No 	5.0+ 	3.0+
+WebM 	No 	4.0+ 	        10.6+ 	6.0+ 	No
+
+Ogg = 带有 Theora 视频编码和 Vorbis 音频编码的 Ogg 文件
+
+MPEG4 = 带有 H.264 视频编码和 AAC 音频编码的 MPEG 4 文件
+
+WebM = 带有 VP8 视频编码和 Vorbis 音频编码的 WebM 文件
+<video> 标签的属性
+属性 	值 	描述
+autoplay 	autoplay 	如果出现该属性，则视频在就绪后马上播放。
+controls 	controls 	如果出现该属性，则向用户显示控件，比如播放按钮。
+height 	pixels 	设置视频播放器的高度。
+loop 	loop 	如果出现该属性，则当媒介文件完成播放后再次开始播放。
+preload 	preload 	
+
+如果出现该属性，则视频在页面加载时进行加载，并预备播放。
+
+如果使用 "autoplay"，则忽略该属性。
+src 	url 	要播放的视频的 URL。
+width 	pixels 	设置视频播放器的宽度。
+
+HTML5 <video> - 方法、属性以及事件
+
+下面列出了大多数浏览器支持的视频方法、属性和事件：
+方法 	属性 	事件
+play() 	currentSrc 	play
+pause() 	currentTime 	pause
+load() 	videoWidth 	progress
+canPlayType 	videoHeight 	error
+  	duration 	timeupdate
+  	ended 	ended
+  	error 	abort
+  	paused 	empty
+  	muted 	emptied
+  	seeking 	waiting
+  	volume 	loadedmetadata
+  	height 	 
+  	width 	 
+
+注释：在所有属性中，只有 videoWidth 和 videoHeight 属性是立即可用的。在视频的元数据已加载后，其他属性才可用。
+音频格式
+
+当前，audio 元素支持三种音频格式：
+  	IE 9 	Firefox 3.5 	Opera 10.5 	Chrome 3.0 	Safari 3.0
+Ogg Vorbis 	  	√ 	√       	√ 	 
+MP3 	√ 	  	                	√       	√
+Wav 	        	√ 	√ 	                        √    
+
+<audio src="/i/song.ogg" controls="controls">
+Your browser does not support the audio element.
+</audio>
+<audio> 标签的属性
+属性 	值 	描述
+autoplay 	autoplay 	如果出现该属性，则音频在就绪后马上播放。
+controls 	controls 	如果出现该属性，则向用户显示控件，比如播放按钮。
+loop 	loop 	如果出现该属性，则每当音频结束时重新开始播放。
+preload 	preload 	
+
+如果出现该属性，则音频在页面加载时进行加载，并预备播放。
+
+如果使用 "autoplay"，则忽略该属性。
+src 	url 	要播放的音频的 URL。
+http://www.w3school.com.cn/html5/html_5_draganddrop.asp
+拖动什么 - ondragstart 和 setData()
+

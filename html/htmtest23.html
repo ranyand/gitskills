@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button type="button" onclick="alert('your computer will poweroff in 10s')">
+click here
+</button>
+<p id="demo">click the button and i will change
+</p>
+<script>
+    function myFunction(){
+x=document.getElementById("demo");
+x.innerHTML="look,i had changed."
+}
+</script>
+<button type="button" onclick="myFunction()">click me ,not above</button>
+
+<script>
+function changeImage()
+{
+element=document.getElementById('myimage')
+if (element.src.match("bulbon"))
+{
+    element.src="/root/gittt/gitskills/img/bulboff.gif";
+}
+   else
+{
+    element.src="/root/gittt/gitskills/img/bulbon.gif";
+}
+}
+
+</script>
+
+<img id="myimage" onclick="changeImage()" src="/root/gittt/gitskills/img/bulboff.gif">
+<p>please click here to control the bulb.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
