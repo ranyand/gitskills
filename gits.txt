@@ -1,0 +1,12 @@
+git branch 
+git add <name>
+git checkout -b branch <forkname>
+git stash
+git push origin <forkname>
+git pull
+git checkout <forkname>
+git log
+git remote
+git remote -v 
+git tag 
+
